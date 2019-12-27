@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<title>RPG Test</title>
+	</head>
+	
+	<body onload="displayStats()"; onunload="setCookies()">
+		<p id="stats"></p>
+		<hr />
+		<h1>Forest</h1>
+		<hr />
+		<p id="desc">A dense forest</p>
+		<p id="output"></p>
+		<hr />
+		<div id="buttons">
+			<button onclick="hpUp()">HP Up</button>
+			<button onclick="hpDown()">HP Down</button>
+			<button onclick="manaUp()">Mana Up</button>
+			<button onclick="manaDown()">Mana Down</button>
+			<button onclick="goToDungeon()">Dungeon</button>
+			<button onclick="goToTown()">Town</button>
+			<hr />
+			<button onclick="saveAndQuit()">Save and Quit</button>
+		</div>
+		<script src="utils.js"></script>
+		<script src="rpgTest.js"></script>
+	</body>
+</html>

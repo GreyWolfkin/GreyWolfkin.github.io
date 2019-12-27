@@ -1,0 +1,51 @@
+<html>
+	<head>
+		<title>Portfolio</title>
+	</head>
+	
+	<body>
+		<h1>Portfolio</h1>
+		<hr />
+		<p>Click a button below for a dropdown list of projects I've worked on. Hover over a project name for a brief description, and click to download the .zip file</p>
+		<hr />
+		<div id="buttons">
+			<div class="javaDropdown">
+				<button onclick="javaFunction()" class="dropbtn">Java Projects</button>
+				<div id="javaProjects" class="dropdown-content">
+					<a href="Downloads\rpgSwing.zip" title="Java Swing Applet for basic RPG GUI" download>rpgSwing</a>
+					<a href="Downloads\escape1.zip" title="Text-based Escape The Room game" download>Escape 1</a>
+					<a href="Downloads\escape2.zip" title="Slightly more complex Escape game" download>Escape 2</a>
+					<a href="Downloads\hef.zip" title="Choose Your Own Adventure style demo" download>HEF</a>
+					<a href="Downloads\dbEmployee.zip" title="Database program simulating SQL" download>dbEmployee</a>
+					<a href="Downloads\dbMV.zip" title="Another SQL simulator" download>dbMV</a>
+					<a href="Downloads\dungeon.zip" title="WIP Dungeon Crawler" download>Dungeon</a>
+					<a href="Downloads\ticTacJava.zip" title="Tic Tac Toe game" download>TicTacJava</a>
+				</div>
+			</div>
+			<div class="pythonDropdown">
+				<button onclick="pythonFunction()" class="dropbtn">Python Projects</button>
+				<div id="pythonProjects" class="dropdown-content">
+					<a href="Downloads\encounterPy.zip" title="Encounter-building program for use with text-based adventure games" download>EncounterPy</a>
+					<a href="Downloads\dungeonMap.zip" title="Basic tkinter map" download>Dungeon Map</a>
+					<a href="Downloads\sol.zip" title="Fully functioning solitaire game" download>Sol</a>
+				</div>
+			</div>
+			<div class="sqlDropdown">
+				<button onclick="sqlFunction()" class="dropbtn">SQL Projects</button>
+				<div id="sqlProjects" class="dropdown-content">
+					<a href="Downloads\sqlPortfolio.zip" title="Portfolio of Intermediate 'Plug-And-Play' SQL Queries" download>SQL Portfolio</a>
+				</div>
+			</div>
+			<div class="jsDropdown">
+				<button onclick="jsFunction()" class="dropbtn">Javascript Projects</button>
+				<div id="jsProjects" class="dropdown-content">
+					<a href="Downloads\jsPortfolio.zip" title="HTML, CSS, and JS files used in this Website" download>Javascript Portfolio</a>
+				</div>
+			</div>
+			<button id="index" onclick="goToIndex()">Main</button>
+		</div>
+		<link rel="stylesheet" type="text/css" href="portfolio.css">
+		<script src="portfolio.js"></script>
+		<script src="redirect.js"></script>
+	</body>
+</html>

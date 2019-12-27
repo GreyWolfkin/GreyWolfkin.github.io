@@ -1,0 +1,50 @@
+#buttons {
+	position: relative;
+	width: 800px;
+	height: 400px;
+}
+
+.pythonDropdown {
+	position: absolute;
+	top: 0;
+	left: 121px;
+}
+
+.sqlDropdown {
+	position: absolute;
+	top: 0;
+	left: 256px;
+}
+
+.jsDropdown {
+	position: absolute;
+	top: 0;
+	left: 377px;
+}
+
+#index {
+	position: absolute;
+	top: 0;
+	left: 530px;
+}
+
+.dropbtn {
+	cursor: pointer;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	z-index: 1;
+}
+
+.dropdown-content a {
+	display: block;
+}
+
+.show {display: block;}

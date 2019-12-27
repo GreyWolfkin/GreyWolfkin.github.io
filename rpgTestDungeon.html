@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<title>RPG Test</title>
+		<link rel="stylesheet" type="text/css" href="dungeonStyle.css">
+	</head>
+	
+	<body onload="displayStats(); setRoom()"; onunload="setCookies()">
+		<p id="stats"></p>
+		<hr />
+		<h1>Dungeon</h1>
+		<hr />
+		<p id="desc">A spooky dungeon</p>
+		<p id="output"></p>
+		<hr />
+		<div id="buttons">
+			<button onclick="goToRoom(1)">Room 1</button>
+			<button onclick="goToRoom(2)">Room 2</button>
+			<button onclick="goToRoom(3)">Room 3</button>
+			<button onclick="goToRoom(4)">Room 4</button>
+			<button onclick="goToTown()">Town</button>
+			<hr />
+			<button onclick="saveAndQuit()">Save and Quit</button>
+		</div>
+		<script src="utils.js"></script>
+		<script src="rpgTest.js"></script>
+	</body>
+</html>
