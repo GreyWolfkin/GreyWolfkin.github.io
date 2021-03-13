@@ -1,0 +1,2 @@
+// ideaGenerator.js
+

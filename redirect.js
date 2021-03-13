@@ -13,3 +13,7 @@ function portfolio() {
 function goToIndex() {
 	window.location = "index.html";
 }
+
+function goToIdeaGenerator() {
+	window.location = "ideaGenerator.html";
+}
