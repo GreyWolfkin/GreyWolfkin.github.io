@@ -1,0 +1,33 @@
+<html>
+	<header>
+		<h1>IDEA GENERATOR</h1><br><br>
+		<h3>BETA VERSION ONLY<br>Add Format text with variables surrounded by a single *<br>Add fields with names matching variable names<br>Separate variable options with a newline<br>Click Generate</h3>
+		<span id='message'></span><br><br>
+		<span id='result' style='white-space:pre'></span><br><br>
+		<div id='buttons_result'>
+			<button id='generate' onclick='generate()'>Generate</button>
+			<button id='save' onclick='save()'>Save</button>
+		</div>
+		<div id='userData' class='user_data'>
+			<span id='span_userData'></span>
+			<div id='buttons_userData'>
+				<button id='signIn' onclick='signIn()'>Sign In</button>
+				<button id='dataset' onclick='datasetChange()'>Dataset</button>
+			</div>
+		</div>
+		<hr />
+	</header>
+	<body>
+		<div id='input_fields'>
+			<div id='window_format'>
+				<label id='label_name_format'>Name: </label><br>
+				<input type='text' id='name_format' value='Format' disabled></input><br><br>
+				<label id='label_text_format'>Text: </label><br>
+				<textarea id='text_format' rows='10' cols='50'></textarea>
+			</div>
+		</div>
+		<hr />
+		<button id='addField' onclick='addField()'>Add Field</button>
+		<script src="ideaGenerator.js"></script>
+	</body>
+</html>
